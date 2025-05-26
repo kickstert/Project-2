@@ -14,8 +14,8 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1000px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     background: #f5f5f5;
     box-shadow: 0 30px 50px #dbdbdb;
 }
@@ -64,8 +64,6 @@ body{
     left: calc(50% + 660px);
     opacity: 0;
 }
-
-
 
 .BGimage .content{
     position: absolute;
