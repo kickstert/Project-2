@@ -1,12 +1,12 @@
 let next = document.querySelector('.next')
-let prev = document.querySelector('.prev')
+let previous = document.querySelector('.previous')
 
 next.addEventListener('click', function(){
-    let items = document.querySelectorAll('.item')
-    document.querySelector('.slide').appendChild(items[0])
+    let BGimage = document.querySelectorAll('.BGimage')
+    document.querySelector('.slide').appendChild(BGimage[0])
 })
 
-prev.addEventListener('click', function(){
-    let items = document.querySelectorAll('.item')
-    document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
+previous.addEventListener('click', function(){
+    let BGimage = document.querySelectorAll('.BGimage')
+    document.querySelector('.slide').prepend(BGimage[BGimage.length - 1]) // here the length of items = 6
 })
