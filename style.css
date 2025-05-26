@@ -20,7 +20,11 @@ body{
     box-shadow: 0 30px 50px #dbdbdb;
 }
 
-.flex-container .slide .BGImage{
+.BGimage{
+    background-image: url(../Project-2/assets/images/forest.jpg);
+}
+
+.flex-container .slide .BGimage{
     width: 200px;
     height: 300px;
     position: absolute;
@@ -34,8 +38,8 @@ body{
     transition: 0.5s;
 }
 
-.slide .BGImage:nth-child(1),
-.slide .BGImage:nth-child(2){
+.slide .BGimage:nth-child(1),
+.slide .BGimage:nth-child(2){
     top: 0;
     left: 0;
     transform: translate(0, 0);
@@ -45,25 +49,25 @@ body{
 }
 
 
-.slide .BGImage:nth-child(3){
+.slide .BGimage:nth-child(3){
     left: 50%;
 }
-.slide .BGImage:nth-child(4){
+.slide .BGimage:nth-child(4){
     left: calc(50% + 220px);
 }
-.slide .BGImage:nth-child(5){
+.slide .BGimage:nth-child(5){
     left: calc(50% + 440px);
 }
 
 /* here n = 0, 1, 2, 3,... */
-.slide .BGImage:nth-child(n + 6){
+.slide .BGimage:nth-child(n + 6){
     left: calc(50% + 660px);
     opacity: 0;
 }
 
 
 
-.BGImage .content{
+.BGimage .content{
     position: absolute;
     top: 50%;
     left: 100px;
@@ -76,7 +80,7 @@ body{
 }
 
 
-.slide .BGImage:nth-child(2) .content{
+.slide .BGimage:nth-child(2) .content{
     display: block;
 }
 
@@ -118,8 +122,6 @@ body{
         filter: blur(0);
     }
 }
-
-
 
 .button{
     width: 100%;
