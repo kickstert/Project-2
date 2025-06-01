@@ -20,10 +20,6 @@ body{
     box-shadow: 0 30px 50px #dbdbdb;
 }
 
-.BGimage{
-    background-image: url(../Project-2/assets/images/forest.jpg);
-}
-
 .flex-container .slide .BGimage{
     width: 200px;
     height: 300px;
