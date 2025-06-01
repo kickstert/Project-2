@@ -58,10 +58,37 @@ body{
 .slide .BGimage:nth-child(5){
     left: calc(50% + 440px);
 }
+.slide .BGimage:nth-child(6){
+    left: calc(50% + 660px);
+}
+.slide .BGimage:nth-child(7){
+    left: calc(50% + 880px);
+}
+.slide .BGimage:nth-child(8){
+    left: calc(50% + 1100px);
+}
+.slide .BGimage:nth-child(9){
+    left: calc(50% + 1320px);
+}
+.slide .BGimage:nth-child(10){
+    left: calc(50% + 1540px);
+}
+.slide .BGimage:nth-child(11){
+    left: calc(50% + 1760px);
+}
+.slide .BGimage:nth-child(12){
+    left: calc(50% + 1980px);
+}
+.slide .BGimage:nth-child(13){
+    left: calc(50% + 2200px);
+}
+.slide .BGimage:nth-child(14){
+    left: calc(50% + 2420px);
+}
 
 /* here n = 0, 1, 2, 3,... */
-.slide .BGimage:nth-child(n + 6){
-    left: calc(50% + 660px);
+.slide .BGimage:nth-child(n + 14){
+    left: calc(50% + 2640px);
     opacity: 0;
 }
 
