@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Markazi;
+  src: url(../Project-2/assets/fonts/MarkaziText-Roman-VF.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -100,7 +105,7 @@ body{
     text-align: left;
     color: #eee;
     transform: translate(0, -50%);
-    font-family: system-ui;
+    font-family: Markazi;
     display: none;
 }
 
