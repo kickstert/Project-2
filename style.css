@@ -20,13 +20,13 @@
 
 .content{
     text-align: center;
+    font-family: Markazi;
 }
 
 .content h1{
     font-size: 95px;
     color: white;
     margin-bottom: 50px;
-    font-family: Markazi;
 }
 
 .content a{
