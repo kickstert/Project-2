@@ -109,6 +109,13 @@ body{
     display: none;
 }
 
+.weapon{
+    font-size: 30px;
+}
+
+.description{
+    font-size: 20px;
+}
 
 .slide .BGimage:nth-child(2) .content{
     display: block;
