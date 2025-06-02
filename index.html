@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Project-2/style.css">
+    <script src="https://kit.fontawesome.com/298ddc4f58.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li class="logo">
+                    <a href="#"><img src="../Project-2/assets/images/MHW_logo.png" alt="logo"></a>
+                </li>
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Weapons</a></li>
+                    <li><a href="#">About</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fa-solid fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <video autoplay loop muted plays-inline class="background-clip">
             <source src="../Project-2/assets/videos/Intro.mp4" type="video/mp4">
