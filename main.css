@@ -197,6 +197,21 @@ a:hover{
     color: #fff;
 }
 
+.button button{
+  animation: breathe 7s linear infinite;
+}
+@keyframes breathe {
+ 0% {
+box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3)
+ }
+ 50% {
+box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3)
+ }
+ 100% {
+box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3)
+ }
+}
+
 .bar .nav-bar{
     width: 100%;
     display: flex;
