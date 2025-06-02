@@ -161,4 +161,10 @@ body{
     .menu li a{
         padding: 10px;
     }
+    .open-menu , .close-menu{
+        display: block;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
 }
