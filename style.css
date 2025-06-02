@@ -122,10 +122,16 @@ body{
     color: var(--color1);
     cursor: pointer;
     font-size: 1.5rem;
+    display: none;
 }
 
 .open-menu{
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
+}
+
+.close-menu{
+    top: 20px;
+    right: 20px;
 }
