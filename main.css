@@ -186,7 +186,7 @@ body{
     color: #fff;
 }
 
-.button .nav-bar{
+.bar .nav-bar{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -197,19 +197,19 @@ body{
     padding: 12px 20px;
 }
 
-.button .logo img{
+.bar .logo img{
     width: 40px;
 }
 
-.button .menu{
+.bar .menu{
     display: flex;
 }
 
-.button .menu li{
+.bar .menu li{
     padding-left: 30px;
 }
 
-.button .menu li a{
+.bar .menu li a{
     display: inline-block;
     text-decoration: none;
     color: var(--color1);
@@ -219,7 +219,7 @@ body{
     text-transform: uppercase;
 }
 
-.button .menu li a::after{
+.bar .menu li a::after{
     content: "";
     position: absolute;
     bottom: 0;
@@ -230,11 +230,11 @@ body{
     transition: 0.15s ease-in-out;
 }
 
-.button .menu li a:hover:after{
+.bar .menu li a:hover:after{
     width: 100%;
 }
 
-.button .open-menu , .button .close-menu{
+.bar .open-menu , .bar .close-menu{
     position: absolute;
     color: var(--color1);
     cursor: pointer;
@@ -242,23 +242,23 @@ body{
     display: none;
 }
 
-.button .open-menu{
+.bar .open-menu{
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
 }
 
-.button .close-menu{
+.bar .close-menu{
     top: 20px;
     right: 20px;
 }
 
-.button #check {
+.bar #check {
     display: none;
 }
 
 @media(max-width: 610px){
-    .button .menu{
+    .bar .menu{
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -271,16 +271,16 @@ body{
         background-color: var(--color3);
         transition: all 0.2s ease-in-out;
     }
-    .button .menu li{
+    .bar .menu li{
         margin-top: 40px;
     }
-    .button .menu li a{
+    .bar .menu li a{
         padding: 10px;
     }
-    .button .open-menu , .button .close-menu{
+    .bar .open-menu , .bar .close-menu{
         display: block;
     }
-    .button #check:checked ~ .button .menu{
+    .bar #check:checked ~ .bar .menu{
         right: 0;
     }
 }
