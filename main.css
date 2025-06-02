@@ -13,7 +13,7 @@ body{
     background: #eaeaea;
     overflow: hidden;
     --color1: #ffffff;
-    --color2: rgba(0,0,0,0.5);
+    --color2: rgba(0,0,0,0);
     --color3: rgba(0,0,0,0.9);
 }
 
@@ -209,7 +209,7 @@ a:hover{
 }
 
 .bar .logo img{
-    width: 40px;
+    width: 60px;
 }
 
 .bar .menu{

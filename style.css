@@ -11,7 +11,7 @@
 
 body{
     --color1: #ffffff;
-    --color2: rgba(0,0,0,0.5);
+    --color2: rgba(0,0,0,0);
     --color3: rgba(0,0,0,0.9);
 }
 
@@ -82,7 +82,7 @@ body{
 }
 
 .logo img{
-    width: 40px;
+    width: 60px;
 }
 
 .menu{
@@ -98,7 +98,7 @@ body{
     text-decoration: none;
     color: var(--color1);
     text-align: center;
-    transition: 015s ease-in-out;
+    transition: 0.15s ease-in-out;
     position: relative;
     text-transform: uppercase;
 }
