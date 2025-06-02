@@ -11,7 +11,8 @@
 
 body{
     --color1: #ffffff;
-    --color2: rgba(0,0,0,0.5);;
+    --color2: rgba(0,0,0,0.5);
+    --color3: rgba(0,0,0,0.9);
 }
 
 .container{
@@ -138,4 +139,26 @@ body{
 
 #check {
     display: none;
+}
+
+@media(max-width: 610px){
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color3);
+        transition: all 0.2s ease-in-out;
+    }
+    .menu li{
+        margin-top: 40px;
+    }
+    .menu li a{
+        padding: 10px;
+    }
 }
