@@ -135,3 +135,7 @@ body{
     top: 20px;
     right: 20px;
 }
+
+#check {
+    display: none;
+}
