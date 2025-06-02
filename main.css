@@ -195,17 +195,15 @@ a:hover{
 .button button:hover{
     background: #ababab;
     color: #fff;
+      animation: breathe 4s linear infinite;
 }
 
-.button button{
-  animation: breathe 7s linear infinite;
-}
 @keyframes breathe {
  0% {
 box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3)
  }
  50% {
-box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3)
+box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.3)
  }
  100% {
 box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3)
